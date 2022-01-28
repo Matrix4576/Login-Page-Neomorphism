@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Login Page | Neomorphic</title>
+</head>
+
+<body>
+    <div class="form" id="myDiv">
+        <h2>Login</h2>
+        <div class="input">
+            <div class="inputBx">
+                <label>Email</label>
+                <input type="text" id="email" name="username" placeholder="example@xyz.com" required autofocus=true
+                    autocomplete=false>
+            </div>
+            <div class="inputBx">
+                <label>Password</label>
+                <input type="password" id="password" name="password" placeholder="*******" required>
+            </div>
+            <div class="inputBx">
+                <input type="submit" value="Sign In" required onclick="alertBox()">
+            </div>
+        </div>
+        <p class="forgot">Forgot Password? <a href="#">Click here!</a></p>
+        <p class="forgot">New? <a href="#">Register here!</a></p>
+    </div>
+</body>
+
+</html>
